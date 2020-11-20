@@ -23,7 +23,7 @@ while guesses < 5:
 
 if guess == number:
     guesses = str(guesses)
-    print ("You guess it in : ", guesses + " guesses")
+    print ("You guessed it in : ", guesses + " guesses")
 
 if guess != number:
     number = str(number)
